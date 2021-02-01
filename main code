@@ -163,7 +163,7 @@ void calulation()
 			cin >> mybinary_num2;
 			int mybinary_num2_int = convertToBinary(mybinary_num2);
 			int result = mybinary_num_int + mybinary_num2_int;
-			cout << "The result is: " << result << " in Decimal System after conversion" << '\a' << endl;
+			cout << "The result is: " << result << " in hexaDecimal System after conversion" << '\a' << endl;
 		}
 		catch (...) {
 			cerr << "Make sure you are entering binary number " << endl;
